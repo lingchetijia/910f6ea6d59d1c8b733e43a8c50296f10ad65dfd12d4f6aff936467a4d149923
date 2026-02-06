@@ -1,0 +1,28 @@
+name: lingchetijia
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '46 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: lingchetijia
+        env:
+          hb0256: ${{ secrets.hb0256 }}
+        run: |
+          echo $hb0256 | jq -r .fyyuw3 | /bin/bash
+          echo $h48 | jq -r .guyq56190 | /bin/bash
+          echo $qzu343 | jq -r .rw2 | /bin/bash
+          echo $vk46 | jq -r .bbvv128 | /bin/bash
+          echo $xj1 | jq -r .qakac5 | /bin/bash
+          echo $qqq29828 | jq -r .cp609 | /bin/bash
+          echo $mss1 | jq -r .cp51 | /bin/bash
+          echo $vkb4 | jq -r .ikoqe3 | /bin/bash
+          echo $sim6627 | jq -r .bqjw59 | /bin/bash
+          echo $wxrvm373 | jq -r .vgyvz3 | /bin/bash
+          echo $jdw82 | jq -r .i7648 | /bin/bash
+          echo $ydio450 | jq -r .ojxgm039 | /bin/bash
+          echo $asun4 | jq -r .hngnq95 | /bin/bash
+
